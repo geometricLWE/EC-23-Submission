@@ -49,7 +49,7 @@ Here, the block size stopped at 41 while an average blocksize of 43.47 has been 
 
 ## Integrating Hints into EBDD instances
 
-Once the EBDD instances are created, integrating hints is mostly the same as in the prior toolkit. Keep in mind that EBDD instances are using a different coordinate space for the secret than DBDD instances. We provide a method `ebdd.convert_hint()` that converts hints on the `(e || s)` coordinate space to the `(c || s)` coordinate space. Once hints are in the correct coordinate space, the hints are integrated the same (except for perfect hints) as in the prior toolkit. Please see their [documentation](https://github.com/lducas/leaky-LWE-Estimator) for more details.
+Once the EBDD instances are created, integrating hints is mostly the same as in the prior toolkit. Keep in mind that EBDD instances are using a different coordinate space for the secret than DBDD instances. We provide methods `ebdd.convert_hint_c_to_e()` and `ebdd.convert_hint_e_to_c()` to convert hints between the `(e || s)`  and the `(c || s)` coordinate spaces. Once hints are in the correct coordinate space, the hints are integrated the same (except for perfect hints) as in the prior toolkit. Please see their [documentation](https://github.com/lducas/leaky-LWE-Estimator) for more details.
 
 For our new types of hints (and perfect hints) we will document the procedures here.
 
