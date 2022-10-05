@@ -8,7 +8,7 @@ The code is written for Sage 9.3 (Python 3 Syntax). The code is a fork of the `L
 
 ## Organization
 The library itself is to be found in the `framework` folder. 
-`Sec5.2_validation` and `Sec6_applications` contain the code to reproduce our experiments.
+Folders `section_5_1`, `section_5_2`, and `section_5_3` contain the code to reproduce our experiments.
 
 
 ## Details of the new API
