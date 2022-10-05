@@ -14,7 +14,7 @@ The library itself is to be found in the `framework` folder.
 ## Details of the new API
 Compared to the prior implementation, we have updated the way EBDD (and DBDD) instances are created to better reflect the structure of the problem and make the toolkit more easily extensible.
 
-We have revised the front-end of the toolkit with the `LWE` and `LWR` classes. You first create an LWE or LWR instance, and then embed it into an EBDD (or DBDD) instance. We only provide the full-fledged implementation of an EBDD instance through the method `embed_into_EBDD()`. DBDD instances can be created through the methods `embed_into_DBDD()`, `embed_into_DBDD_optimized()`, `embed_into_DBDD_predict()`, and `embed_into_DBDD_predict_diag()`. Let us create a small LWE instance and estimate its security in bikz. The code should be run from the directories `Sec5.2_validation` or `Sec6_applications`.
+We have revised the front-end of the toolkit with the `LWE` and `LWR` classes. You first create an LWE or LWR instance, and then embed it into an EBDD (or DBDD) instance. We only provide the full-fledged implementation of an EBDD instance through the method `embed_into_EBDD()`. DBDD instances can be created through the methods `embed_into_DBDD()`, `embed_into_DBDD_optimized()`, `embed_into_DBDD_predict()`, and `embed_into_DBDD_predict_diag()`. Let us create a small LWE instance and estimate its security in bikz. The code should be run from the directories `section_5_1`, `section_5_2`, or `section_5_3`.
 
 
 ```sage
