@@ -19,10 +19,8 @@ from scipy.stats import truncnorm
 ## Sage loads ##
 load("../framework/DBDD.sage")
 load("../framework/EBDD.sage")
-load("../framework/EBDD_non_homo.sage")
 load("../framework/utils.sage")
 load("../framework/proba_utils.sage")
-load("../framework/instance_gen.sage")
 load("../framework/LWE.sage")
 
 ## Function Definitions ##
@@ -208,7 +206,6 @@ ell = RR(sqrt(d * var))
 
 
 #print(dbdd.volumes())
-# ebdd = lwe_instance.embed_into_EBDD_nist()
 # ebdd.mean_update(vec([128, 64, 64] + [0]*(n + m - 3)))
 ellip_norm = 1280
 dbdd2_means = None
